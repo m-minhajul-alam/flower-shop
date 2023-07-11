@@ -19,6 +19,7 @@
 .btn-primary:hover {
     color: #E55473;
     background-color: #FFF;
+    box-shadow: none;
 }
 
 span {
@@ -112,12 +113,14 @@ li:hover>.dropdown {
     padding: 4px 10px;
     cursor: pointer;
     border-radius: 8px;
+    box-shadow: 2px 2px 2px gray;
 }
 
 .nev-btn:hover {
     border: 2px solid #E55473;
     background-color: #FFF;
     color: #E55473;
+    box-shadow: none;
 }
 
 /* nav section end */

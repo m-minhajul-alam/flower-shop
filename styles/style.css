@@ -1,4 +1,4 @@
-/* common shared style start */
+/* common shared start */
 * {
     margin: 0px;
     padding: 0px;
@@ -24,9 +24,9 @@ span {
     color: #E55473;
 }
 
-/* common shared style end */
+/* common shared end */
 
-/* banner section style start */
+/* banner section start */
 .banner {
     height: 80vh;
     background-color: rgba(229, 84, 115, 0.1);
@@ -57,7 +57,69 @@ span {
     width: 395px;
 }
 
-/* banner section style start */
+/* banner section start */
+
+/* featured flowers section start */
+.featured-flowers-container {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+
+.featured-flowers-title {
+    color: #272727;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.featured-flowers-desc {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 11px;
+    font-weight: 400px;
+    line-height: 20px;
+    padding: 10px;
+}
+
+.featured-flowers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+.featured-flower-img-one {
+    width: 180px;
+    background: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    padding: 0px 40px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    margin-bottom: 20px;
+}
+.featured-flower-img-two {
+    width: 180px;
+    background: rgba(5, 151, 160, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    padding: 0px 40px;
+    padding-top: 88px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+.featured-flower-img-three {
+    width: 180px;
+    background: rgba(71, 125, 17, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    padding: 0px 40px;
+    padding-top: 28px;
+    padding-bottom: 0px;
+    margin-bottom: 20px;
+}
+
+/* featured flowers section end */
+
+/* hot deal section start */
 .hot-deal {
     height: 8vh;
     background-color: rgba(229, 84, 115, 0.05);
@@ -89,7 +151,7 @@ span {
     padding-bottom: 13px;
 }
 
-/* banner section style start */
+/* hot deal section end */
 
 /* instagram section start */
 .insta-info-title {

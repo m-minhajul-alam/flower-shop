@@ -1,4 +1,55 @@
-*{
+/* common shared style start */
+* {
     margin: 0px;
     padding: 0px;
+    font-family: 'Lato', sans-serif;
 }
+
+.btn-primary {
+    color: #FFF;
+    background-color: #E55473;
+    border: 2px solid #E55473;
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 15px 40px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    color: #E55473;
+    background-color: #FFF;
+}
+
+/* common shared style end */
+/* banner section style start */
+
+.banner {
+    background-color: rgba(229, 84, 115, 0.1);
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 80px 0px 80px;
+    gap: 80px;
+}
+
+.banner-img {
+    width: 395px;
+}
+
+.benner-info-title {
+    color: #272727;
+    font-size: 60px;
+    font-weight: 800;
+    padding-bottom: 30px;
+}
+
+.banner-info-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 30px;
+    line-height: 25px;
+}
+
+/* banner section style start */

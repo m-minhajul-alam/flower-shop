@@ -36,7 +36,7 @@ span {
 
 /* nav section start */
 .nav {
-    background-color: rgba(229, 84, 115, 0.425);
+    background-color: rgba(229, 84, 115, 0.388);
     height: 35px;
     width: 100%;
     position: fixed;
@@ -71,9 +71,9 @@ span {
 }
 
 .item:hover {
-    color: #E55473;
-    border-right: 1px solid #E55473;
-    border-bottom: 1px solid #E55473;
+    color: rgba(0, 0, 0, 1);
+    border-right: 1px solid rgba(0, 0, 0, 1);
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
     border-radius: 8px;
 }
 
@@ -92,12 +92,13 @@ span {
 li:hover>.dropdown {
     display: block;
     background-color: rgba(229, 84, 115, 0.1);
+    border-radius: 8px;
 }
 
 .dropdown-op:hover {
-    color: #E55473;
-    border-bottom: 1px solid #E55473;
-    border-right: 1px solid #E55473;
+    color: rgba(0, 0, 0, 1);
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
+    border-right: 1px solid rgba(0, 0, 0, 1);
     border-radius: 8px;
 }
 
@@ -135,6 +136,7 @@ li:hover>.dropdown {
     padding: 40px 100px 0px 100px;
     gap: 80px;
     margin-bottom: 90px;
+    box-shadow: 3px 3px 3px gray;
 }
 
 .benner-info-title {
@@ -196,6 +198,7 @@ li:hover>.dropdown {
     padding-top: 50px;
     padding-bottom: 0px;
     margin-bottom: 20px;
+    box-shadow: 3px 3px 3px gray;
 }
 
 .featured-flower-img-two {
@@ -206,6 +209,7 @@ li:hover>.dropdown {
     padding-top: 88px;
     padding-bottom: 30px;
     margin-bottom: 20px;
+    box-shadow: 3px 3px 3px gray;
 }
 
 .featured-flower-img-three {
@@ -216,6 +220,7 @@ li:hover>.dropdown {
     padding-top: 28px;
     padding-bottom: 0px;
     margin-bottom: 20px;
+    box-shadow: 3px 3px 3px gray;
 }
 
 /* featured flowers section end */
@@ -233,6 +238,7 @@ li:hover>.dropdown {
     margin: auto;
     border-radius: 8px;
     margin-bottom: 80px;
+    box-shadow: 3px 3px 3px gray;
 }
 
 .service-img {
@@ -259,6 +265,7 @@ li:hover>.dropdown {
     gap: 30px;
     margin-bottom: 90px;
     text-align: center;
+    box-shadow: 3px 3px 3px gray;
 }
 
 .hot-deal-img {
@@ -314,6 +321,75 @@ li:hover>.dropdown {
 
 /* instagram section end */
 
+/* review section start */
+.review-container {
+    width: 68%;
+    height: 80vh;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    padding: 50px;
+
+}
+
+.review-container>h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    width: 800px;
+    font-size: 40px;
+    padding-left: 22px;
+}
+
+.review {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    height: 10vh;
+    background-color: rgba(255, 255, 255, 1);
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 30px;
+    border-radius: 80px;
+    border-top: 1px solid #E55473;
+    border-left: 1px solid #E55473;
+    box-shadow: 3px 3px 3px gray;
+}
+
+.reviewar-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border-top: 1px solid #E55473;
+    border-left: 1px solid #E55473;
+    margin-left: -40px;
+    margin-top: -40px;
+    box-shadow: 3px 3px 3px gray;
+}
+
+.reviewar-text {
+    padding: 0px 15px 15px 20px;
+}
+
+.reviewar-name {
+    color: #272727;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.reviewar-review {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.review-container>h5 {
+    text-align: center;
+    cursor: pointer;
+}
+
+/* review section end */
+
 /* latest deals section start */
 .latest-deals {
     background-image: url(../assets/Rectangle\ 9.png);
@@ -323,6 +399,7 @@ li:hover>.dropdown {
     height: 40vh;
     margin: auto;
     margin-bottom: 90px;
+    box-shadow: 3px 3px 3px gray;
 }
 
 .latest-deals-title {
